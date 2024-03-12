@@ -131,17 +131,18 @@ a:hover {
   }
 } */
 
-#Blog{
+#Blog {
   text-decoration: none;
   padding-left: 10rem;
 }
 
-#Blog, a{
+#Blog,
+a {
   text-decoration: none;
   color: black;
 }
 
-.blogBackground{
+.blogBackground {
   opacity: 50%;
 }
 
@@ -174,7 +175,7 @@ a:hover {
   border: 1px solid #000;
   display: flex;
   flex-direction: row;
-  justify-content: flex-end;
+  /* justify-content: flex-end; */
   /* position: fixed; */
   bottom: auto;
   padding-top: 14px;
@@ -184,7 +185,7 @@ a:hover {
   padding-right: 1rem;
 }
 
-.navBarTabBlog{
+.navBarTabBlog {
   left: 30px;
   top: 30px;
   right: 30px;
@@ -206,7 +207,7 @@ a:hover {
 #navBtn {
   color: black;
   padding: 1rem;
-  border: none;   
+  border: none;
   background-color: #ffffff;
 }
 
@@ -247,7 +248,7 @@ a:hover {
   max-height: auto;
 }
 
-.smallBody{
+.smallBody {
   font-size: small;
 }
 
@@ -259,12 +260,12 @@ a:hover {
   font-size: 1rem;
 }
 
-#socialIcons:hover{
+#socialIcons:hover {
   /* transform: scale(1.1); */
   cursor: pointer;
 }
 
-.underHeader{
+.underHeader {
   left: 30px;
   top: 125px;
   right: 30px;
