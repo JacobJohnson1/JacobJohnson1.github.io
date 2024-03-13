@@ -55,7 +55,7 @@ export default function Home() {
           <div className='posts'>
             <Link href={'/blog2'}>
               <p>Sound Bored</p>
-              {/* <img src="/organizedBinder.jpg" className='postPic' /> */}
+              <img src="/sound-board.jpg" className='postPic' />
             </Link>
           </div>
         </div>
