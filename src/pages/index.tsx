@@ -22,6 +22,9 @@ export default function Home() {
                 <a href="hhttps://github.com/JacobJohnson1" target="blank" className="fa fa-github fa-xs" id="socialIcons" />
                 <a href="https://stackoverflow.com/users/15369768/jake-johnson" target="blank" className="fa fa-stack-overflow fa-xs" id="socialIcons" />
                 <a href="mailto: therealjakejohnson@gmail.com" className="fa fa-envelope-o fa-xs" id="socialIcons" />
+                <a href="https://www.goodreads.com/user/show/108357320-jacob-johnson" id="socialIcons" target='blank'>
+                  <img className='underHeaderLogo' src='/goodreads_logo.png'></img>
+                </a>
               </div>
             </div>
           </div>

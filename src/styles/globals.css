@@ -143,7 +143,6 @@ p {
 }
 
 #socialIcons:hover {
-  /* transform: scale(1.1); */
   cursor: pointer;
 }
 
@@ -162,4 +161,13 @@ p {
   padding-bottom: 14px;
   overflow: none;
   padding-right: 1rem;
+}
+
+.underHeaderLogo {
+  height: 15px;
+  vertical-align: text-bottom;
+}
+
+.underHeaderLogo:hover {
+  transform: scale(1.1);
 }
