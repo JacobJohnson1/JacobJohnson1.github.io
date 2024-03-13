@@ -41,12 +41,20 @@ export default function Home() {
       </div>
       <section id="Blog">
         <p>Blog</p>
-        <Link href="/blogHome" className='smallBody'>see all</Link>
-        <div className='posts'>
-          <Link href={'/blog1'}>
-            <p>Emergency Book?</p>
-            <img src="/organizedBinder.jpg" className='postPic' />
-          </Link>
+        <div className='postContainer'>
+          <Link href="/blogHome" className='smallBody'>see all</Link>
+          <div className='posts'>
+            <Link href={'/blog1'}>
+              <p>Emergency Book?</p>
+              <img src="/organizedBinder.jpg" className='postPic' />
+            </Link>
+          </div>
+          <div className='posts'>
+            <Link href={'/blog2'}>
+              <p>Sound Bored</p>
+              {/* <img src="/organizedBinder.jpg" className='postPic' /> */}
+            </Link>
+          </div>
         </div>
       </section>
     </div>
