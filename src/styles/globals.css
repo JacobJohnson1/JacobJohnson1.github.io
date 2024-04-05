@@ -45,12 +45,14 @@ a {
   border: 1px solid #000;
   display: flex;
   flex-direction: row;
-  bottom: auto;
+  /* bottom: auto; */
   padding-top: 14px;
   padding-bottom: 14px;
   background-color: #ffffff;
   overflow: none;
   padding-right: 1rem;
+  position: fixed;
+  margin-bottom: 20px;
 }
 
 .navBarTabBlog {
@@ -76,7 +78,6 @@ a {
   color: black;
   padding: 1rem;
   border: none;
-  background-color: #ffffff;
 }
 
 p {
@@ -85,8 +86,7 @@ p {
 }
 
 .posts {
-  /* border: 1px solid white; */
-  /* color: black; */
+  border: 1px solid black;
   margin: 1rem;
   width: 25rem;
   height: 15rem;
@@ -104,6 +104,7 @@ p {
 .postPic {
   max-width: 100%;
   max-height: 100%;
+  object-fit: cover;
 }
 
 .skillsGrid {
@@ -148,7 +149,7 @@ p {
   display: flex;
   flex-direction: row;
   justify-content: flex-end;
-  /* position: fixed; */
+  position: fixed;
   bottom: auto;
   padding-top: 14px;
   padding-bottom: 14px;
