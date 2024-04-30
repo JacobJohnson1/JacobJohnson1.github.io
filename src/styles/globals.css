@@ -2,10 +2,6 @@
   padding-top: 10rem;
 }
 
-a:hover {
-  transform: scale(1.05)
-}
-
 #Blog {
   text-decoration: none;
 }
@@ -141,10 +137,6 @@ p {
   font-size: 1rem;
 }
 
-#socialIcons:hover {
-  cursor: pointer;
-}
-
 .underHeader {
   left: 30px;
   top: 125px;
@@ -165,8 +157,4 @@ p {
 .underHeaderLogo {
   height: 15px;
   vertical-align: text-bottom;
-}
-
-.underHeaderLogo:hover {
-  transform: scale(1.1);
 }

@@ -10,16 +10,14 @@ export default function Home() {
     return (
         <div className="Home">
             <header className="Home-header">
-                <header>
-                    <div>
-                        <nav className="navBarTab">
-                            <Link className="fa fa-home" href='/'></Link>
-                        </nav>
-                        <UnderHeader />
-                    </div>
-                </header>
+                <div>
+                    <nav className="navBarTab">
+                        <Link id="navBtn" href='/'>Home</Link>
+                    </nav>
+                    <UnderHeader />
+                </div>
             </header>
-            <div>
+            <div id='FirstThingOnPage'>
                 <p>
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
                     Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure
