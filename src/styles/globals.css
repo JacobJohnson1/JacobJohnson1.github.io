@@ -1,5 +1,7 @@
 #FirstThingOnPage {
   padding-top: 10rem;
+  padding-left: 2.5rem;
+
 }
 
 #Blog {
@@ -14,6 +16,12 @@ a {
 
 .blogBackground {
   opacity: 50%;
+}
+
+.blogText {
+  padding-top: 15rem;
+  padding-left: 2.5rem;
+  max-width: 60%;
 }
 
 #Books {

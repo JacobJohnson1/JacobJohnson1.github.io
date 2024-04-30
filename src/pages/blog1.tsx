@@ -17,12 +17,17 @@ export default function Home() {
                     <UnderHeader />
                 </div>
             </header>
-            <div id='FirstThingOnPage'>
+            <div className='blogText'>
                 <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                    Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure
-                    dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat
-                    non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                    My wife has a semi-irrational fear that she has burdened me with the past few years & until recently I didn't know how to handle it.
+                    She is afraid of my untimely & gruesome death.
+                    <br></br><br></br>
+                    There hasn't been much to say to ease her anxiety until she mentioned that a lot of the anxiety comes from the fact that I
+                    handle a lot of the household chores, repairs, etc. & she feels she wouldn't know how to do any of it.
+                    Being the problem solver that I am, I came up with an idea on how to ease our anxieties: create something she can reference
+                    if she ever needs to do 'Jake stuff.'
+                    <br></br><br></br>
+                    At first, I was thinking this could be a physical book that she could look at if I'm ever out of town
                 </p>
             </div>
         </div>
