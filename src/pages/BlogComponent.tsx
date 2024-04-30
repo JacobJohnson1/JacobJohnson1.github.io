@@ -19,6 +19,18 @@ export default function BlogComponent() {
                     <img src="/sound-board.jpg" className='postPic' />
                 </Link>
             </div>
+            <div className='posts'>
+                <Link href={'/blog3'}>
+                    <p>Poker Simulation</p>
+                    <img src="" className='postPic' />
+                </Link>
+            </div>
+            <div className='posts'>
+                <Link href={'/blog4'}>
+                    <p>Simulated Annealing</p>
+                    <img src="" className='postPic' />
+                </Link>
+            </div>
         </div>
     )
 }
