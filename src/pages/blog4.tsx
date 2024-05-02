@@ -4,6 +4,7 @@ import React, { useState, useEffect } from "react";
 import { posts } from "../data";
 import Link from 'next/link';
 import UnderHeader from './UnderHeader';
+import CatStatGraph from '@/components/CatStatGraph';
 
 export default function Home() {
 
@@ -24,6 +25,9 @@ export default function Home() {
                     dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat
                     non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
                 </p>
+            </div>
+            <div>
+                <CatStatGraph />
             </div>
         </div>
     )
