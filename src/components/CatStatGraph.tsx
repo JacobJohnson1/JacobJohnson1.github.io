@@ -7,6 +7,7 @@ import {
     CategoryScale,
     LinearScale,
     TimeScale,
+    TimeSeriesScale,
     PointElement,
     LineElement,
     Title,
@@ -18,6 +19,7 @@ import {
 ChartJS.register(
     CategoryScale,
     TimeScale,
+    TimeSeriesScale,
     LinearScale,
     PointElement,
     LineElement,
@@ -41,7 +43,6 @@ export const options = {
     },
     scales: {
         x: {
-            // min: '2024-04-29 00:00:00',
             display: true,
         },
         y: {
@@ -116,7 +117,3 @@ export default function CatStatGraph() {
         <Line options={options} data={data} />
     )
 }
-
-// export function App() {
-//   return <Line options={options} data={data} />;
-// }
