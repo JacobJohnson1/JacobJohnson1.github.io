@@ -1,7 +1,6 @@
 #FirstThingOnPage {
   padding-top: 10rem;
   padding-left: 2.5rem;
-
 }
 
 #Blog {
@@ -16,6 +15,11 @@ a {
 
 .blogBackground {
   opacity: 50%;
+}
+
+.blogFrame {
+  display: flex;
+  flex-direction: row;
 }
 
 .blogText {
@@ -114,6 +118,12 @@ p {
   max-width: 100%;
   max-height: 100%;
   object-fit: cover;
+}
+
+.sideBarRight {
+  padding-top: 10rem;
+  padding-right: 2.5rem;
+  max-width: 40%;
 }
 
 .skillsGrid {

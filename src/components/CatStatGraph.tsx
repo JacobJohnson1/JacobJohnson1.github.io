@@ -1,17 +1,12 @@
-import { Inter } from 'next/font/google'
 import styles from '@/styles/Home.module.css'
 import React, { useState, useEffect } from "react";
-import { posts } from "../data";
-import Link from 'next/link';
 import { Line } from 'react-chartjs-2';
-
-
-
 
 import {
     Chart as ChartJS,
     CategoryScale,
     LinearScale,
+    TimeScale,
     PointElement,
     LineElement,
     Title,
@@ -22,6 +17,7 @@ import {
 
 ChartJS.register(
     CategoryScale,
+    TimeScale,
     LinearScale,
     PointElement,
     LineElement,
@@ -45,7 +41,7 @@ export const options = {
     },
     scales: {
         x: {
-            min: '2021-11-07 00:00:00',
+            // min: '2024-04-29 00:00:00',
             display: true,
         },
         y: {
@@ -70,26 +66,13 @@ export const data = {
         {
             label: 'Cowgirl',
             data: [
-                {
-                    x: '2024-04-30 12:00:00',
-                    y: 1.3
-                }, {
-                    x: '2024-05-01 07:35:00',
-                    y: 1.450
-                }, {
-                    x: '2024-05-01 12:30:00',
-                    y: 1.437
-                }, {
-                    x: '2024-05-01 20:15:00',
-                    y: 1.542
-                }, {
-                    x: '2024-05-02 08:10:00',
-                    y: 1.615
-                }, {
-                    x: '2024-05-02 17:00:00',
-                    y: 1.615
-                }
-
+                { x: '2024-04-30 12:00:00', y: 1.300 },
+                { x: '2024-05-01 07:35:00', y: 1.450 },
+                { x: '2024-05-01 12:30:00', y: 1.437 },
+                { x: '2024-05-01 20:15:00', y: 1.542 },
+                { x: '2024-05-02 08:10:00', y: 1.615 },
+                { x: '2024-05-02 17:00:00', y: 1.615 },
+                { x: '2024-05-03 08:20:00', y: 1.604 },
             ],
             borderColor: 'rgb(255, 99, 132)',
             backgroundColor: 'rgba(255, 99, 132, 0.5)',
@@ -116,6 +99,9 @@ export const data = {
                 }, {
                     x: '2024-05-02 17:00:00',
                     y: 1.575
+                }, {
+                    x: '2024-05-03 08:20:00',
+                    y: 1.569
                 }
             ],
             borderColor: 'rgb(53, 162, 235)',

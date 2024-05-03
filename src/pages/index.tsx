@@ -3,7 +3,7 @@ import styles from '@/styles/Home.module.css'
 import React, { useState, useEffect } from "react";
 import { posts } from "../data";
 import Link from 'next/link';
-import BlogComponent from './BlogComponent';
+import BlogComponent from '../components/BlogComponent';
 import UnderHeader from './UnderHeader';
 
 export default function Home() {

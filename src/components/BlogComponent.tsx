@@ -27,6 +27,12 @@ export default function BlogComponent() {
             </div>
             <div className='posts'>
                 <Link href={'/blog4'}>
+                    <p>Cat Stats</p>
+                    <img src="" className='postPic' />
+                </Link>
+            </div>
+            <div className='posts'>
+                <Link href={'/blog5'}>
                     <p>Simulated Annealing</p>
                     <img src="" className='postPic' />
                 </Link>
