@@ -31,9 +31,10 @@ export default function Home() {
                         <br></br><br></br>
                         Below, is the graph of their growth.
                     </p>
-                    <CatStatGraph />
                 </div>
+
             </div>
+            <CatStatGraph />
         </div>
     )
 }
