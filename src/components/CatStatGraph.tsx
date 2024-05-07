@@ -53,6 +53,8 @@ export const options = {
         y1: {
             type: 'linear' as const,
             display: false,
+            position: 'left' as const,
+
         },
     },
 };
@@ -75,6 +77,7 @@ export const data = {
                 { x: '2024-05-04 14:20:00', y: 1.668 },
                 { x: '2024-05-05 15:20:00', y: 1.686 },
                 { x: '2024-05-06 12:00:00', y: 1.787 },
+                { x: '2024-05-07 16:30:00', y: 1.838 },
             ],
             borderColor: 'rgb(255, 99, 132)',
             backgroundColor: 'rgba(255, 99, 132, 0.5)',
@@ -95,6 +98,7 @@ export const data = {
                 { x: '2024-05-04 14:20:00', y: 1.650 },
                 { x: '2024-05-05 15:20:00', y: 1.701 },
                 { x: '2024-05-06 12:00:00', y: 1.703 },
+                { x: '2024-05-07 16:30:00', y: 1.745 },
             ],
             borderColor: 'rgb(53, 162, 235)',
             backgroundColor: 'rgba(53, 162, 235, 0.5)',
