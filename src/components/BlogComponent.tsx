@@ -8,6 +8,18 @@ export default function BlogComponent() {
     return (
         <div className='postContainer'>
             <div className='posts'>
+                <Link href={'/blog6'}>
+                    <p>Salon Website</p>
+                    <img src="" className='postPic' />
+                </Link>
+            </div>
+            <div className='posts'>
+                <Link href={'/blog4'}>
+                    <p>Cat Stats</p>
+                    <img src="" className='postPic' />
+                </Link>
+            </div>
+            <div className='posts'>
                 <Link href={'/blog1'}>
                     <p>Emergency Book?</p>
                     <img src="/organizedBinder.jpg" className='postPic' />
@@ -22,12 +34,6 @@ export default function BlogComponent() {
             <div className='posts'>
                 <Link href={'/blog3'}>
                     <p>Poker Simulation</p>
-                    <img src="" className='postPic' />
-                </Link>
-            </div>
-            <div className='posts'>
-                <Link href={'/blog4'}>
-                    <p>Cat Stats</p>
                     <img src="" className='postPic' />
                 </Link>
             </div>
