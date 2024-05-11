@@ -17,6 +17,11 @@ a {
   opacity: 50%;
 }
 
+.blogContainer {
+  display: flex;
+  flex-direction: row;
+}
+
 .blogFrame {
   display: flex;
   flex-direction: row;
@@ -30,6 +35,12 @@ a {
 
 #Books {
   padding: 10rem;
+}
+
+.folder {
+  max-width: 40%;
+  padding-top: 10rem;
+  padding-left: 2.5rem;
 }
 
 .footer {

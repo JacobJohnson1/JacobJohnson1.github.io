@@ -80,7 +80,7 @@ export const data = {
                 { x: '2024-05-07 16:30:00', y: 1.838 },
                 { x: '2024-05-08 19:15:00', y: 1.864 },
                 { x: '2024-05-09 18:10:00', y: 1.875 },
-
+                { x: '2024-05-10 09:45:00', y: 1.988 },
             ],
             borderColor: 'rgb(255, 99, 132)',
             backgroundColor: 'rgba(255, 99, 132, 0.5)',
@@ -104,6 +104,8 @@ export const data = {
                 { x: '2024-05-07 16:30:00', y: 1.745 },
                 { x: '2024-05-08 19:15:00', y: 1.789 },
                 { x: '2024-05-09 18:10:00', y: 1.832 },
+                { x: '2024-05-10 09:45:00', y: 1.888 },
+
             ],
             borderColor: 'rgb(53, 162, 235)',
             backgroundColor: 'rgba(53, 162, 235, 0.5)',
@@ -124,6 +126,13 @@ export default function CatStatGraph() {
 // import { timeYear, timeMonth, timeWeek, timeDay, timeHour, timeMinute, timeSecond, timeTicks, timeTickInterval } from "d3-time";
 // import { timeFormat } from "d3-time-format";
 
+// const x = d3.scaleTime([new Date(2000, 0, 1), new Date(2000, 0, 2)], [0, 960]);
+// x(new Date(2000, 0, 1, 5)); // 200
+// x(new Date(2000, 0, 1, 16)); // 640
+// x.invert(200); // Sat Jan 01 2000 05:00:00 GMT-0800 (PST)
+// x.invert(640); // Sat Jan 01 2000 16:00:00 GMT-0800 (PST)
+// x.ticks(10);
+
 // const Axis = () => {
 //     const ticks = useMemo(() => {
 //         const xScale = d3.scaleUtc().domain([new Date("2024-04-30T00:00Z"), new Date("2024-05-30T02:00Z")]);
@@ -142,7 +151,7 @@ export default function CatStatGraph() {
 //                 d="M 0 0 H 500"
 //                 stroke="currentColor"
 //             />
-//             {ticks.map(({ value, xOffset }) => (
+//             {x.map(() => (
 //                 <g
 //                     //key={value}
 //                     transform={`translate(${xOffset}, 0)`}
@@ -209,4 +218,64 @@ export default function CatStatGraph() {
 //             </svg>
 //         </svg>
 //     );
+// }
+
+// import aapl from '/aapl.csv';
+// const aapl = require('../../public/aapl.csv');
+
+// const chart = () => {
+//     // Declare the chart dimensions and margins.
+//     const width = 928;
+//     const height = 500;
+//     const marginTop = 20;
+//     const marginRight = 30;
+//     const marginBottom = 30;
+//     const marginLeft = 40;
+
+//     // Declare the x (horizontal position) scale.
+//     const x = d3.scaleUtc(d3.extent(aapl, d => d.date), [marginLeft, width - marginRight]);
+
+//     // Declare the y (vertical position) scale.
+//     const y = d3.scaleLinear([0, d3.max(aapl, d => d.close)], [height - marginBottom, marginTop]);
+
+//     // Declare the line generator.
+//     const line = d3.line()
+//         .x(d => x(d.date))
+//         .y(d => y(d.close));
+
+//     // Create the SVG container.
+//     const svg = d3.create("svg")
+//         .attr("width", width)
+//         .attr("height", height)
+//         .attr("viewBox", [0, 0, width, height])
+//         .attr("style", "max-width: 100%; height: auto; height: intrinsic;");
+
+//     // Add the x-axis.
+//     svg.append("g")
+//         .attr("transform", `translate(0,${height - marginBottom})`)
+//         .call(d3.axisBottom(x).ticks(width / 80).tickSizeOuter(0));
+
+//     // Add the y-axis, remove the domain line, add grid lines and a label.
+//     svg.append("g")
+//         .attr("transform", `translate(${marginLeft},0)`)
+//         .call(d3.axisLeft(y).ticks(height / 40))
+//         .call(g => g.select(".domain").remove())
+//         .call(g => g.selectAll(".tick line").clone()
+//             .attr("x2", width - marginLeft - marginRight)
+//             .attr("stroke-opacity", 0.1))
+//         .call(g => g.append("text")
+//             .attr("x", -marginLeft)
+//             .attr("y", 10)
+//             .attr("fill", "currentColor")
+//             .attr("text-anchor", "start")
+//             .text("↑ Daily close ($)"));
+
+//     // Append a path for the line.
+//     svg.append("path")
+//         .attr("fill", "none")
+//         .attr("stroke", "steelblue")
+//         .attr("stroke-width", 1.5)
+//         .attr("d", line(aapl));
+
+//     return svg.node();
 // }

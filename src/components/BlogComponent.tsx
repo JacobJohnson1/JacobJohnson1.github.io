@@ -22,7 +22,7 @@ export default function BlogComponent() {
             <div className='posts'>
                 <Link href={'/blog1'}>
                     <p>Emergency Book?</p>
-                    <img src="/organizedBinder.jpg" className='postPic' />
+                    <img src="/folderImg.png" className='postPic' />
                 </Link>
             </div>
             <div className='posts'>
