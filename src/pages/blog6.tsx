@@ -20,7 +20,7 @@ export default function Home() {
             </div>
             <div className='blogFrame'>
                 <div className='blogText'>
-                    <h1>Name</h1>
+                    <h1>Salon website</h1>
                     <h5>Last updated: {lastUpdateDate}</h5>
                     <p>
                         lorem ipsum
