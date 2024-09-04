@@ -1,12 +1,15 @@
-import { Inter } from 'next/font/google'
-import styles from '@/styles/Home.module.css'
-import React, { useState, useEffect } from "react";
-import { posts } from "../data";
+import React from "react";
 import Link from 'next/link';
 
 export default function BlogComponent() {
     return (
         <div className='postContainer'>
+            <div className='posts'>
+                <Link href={'/blog7'}>
+                    <p>Job Prep</p>
+                    <img src="businessStressMan.jpg" className='postPic' />
+                </Link>
+            </div>
             <div className='posts'>
                 <Link href={'/blog6'}>
                     <p>Salon Website</p>

@@ -25,8 +25,12 @@ export default function Home() {
             My name is Jacob Johnson. I have a degree in computer science from the University of Missouri -
             Kansas City and I am a software engineer
             for an insurance company.
-            <br></br>
-            <br></br>
+            <br></br><br></br>
+            Saying you are a minimalist or you believe in any sort of 
+            minimalism invites eye rolls these days. But, in a world of
+            over engineered and difficult to maintain websites and applications
+            I am trying to keep this site stripped to bare-bones necessities. 
+            <br></br><br></br>
             This site has been created from scratch by me, so please
             feel free to read about the projects I have worked on, books read,
             and anything else on here.

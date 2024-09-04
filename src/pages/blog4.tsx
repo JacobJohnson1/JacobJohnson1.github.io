@@ -1,5 +1,5 @@
 import { Inter } from 'next/font/google'
-import styles from '@/styles/Home.module.css'
+import styles from '../styles/Home.module.css'
 import React, { useState, useEffect } from "react";
 import { posts } from "../data";
 import Link from 'next/link';
@@ -38,6 +38,7 @@ export default function Home() {
                         pretty rough shape. They were severely under weight and taking care of them was very involved
                         (e.g. syringe feeding, keeping them warm at night, diarrhea protocol, etc.).
                         <br></br><br></br>
+                        <img src='catStatPic.jpg' className='blogPic'></img><br></br><br></br>
                         These two kitties are super easy, though. Just filling their bellies with food and
                         making sure they have a good time.
                         <br></br><br></br>
