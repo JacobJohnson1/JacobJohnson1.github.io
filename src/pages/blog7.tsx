@@ -39,7 +39,14 @@ export default function Home() {
                         and hobbyists alike use the problems for practice and advancement in their skills.
                         Most of the questions are not for the faint of heart.
                     </p>
-
+                    <h3>PHP</h3>
+                    <p>
+                        Trying to learn PHP. 
+                    </p>
+                    <h3>SQL/mySQL</h3>
+                    <p>
+                        Working on a project?
+                    </p>
                 </div>
 
             </div>
