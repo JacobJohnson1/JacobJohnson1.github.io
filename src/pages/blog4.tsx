@@ -44,10 +44,10 @@ export default function Home() {
                         <br></br><br></br>
                         Below, is the graph of their growth created using Chart.js.
                         <br></br><br></br>
-                        I am not a big fan of Chart.js. It doesn't look good on a mobile, it isn't 
+                        I am not a big fan of Chart.js. It does not look good on a mobile, it is not 
                         very customizable, and it seems to have a mind of its own when it comes to how 
                         it displays the data. All graphs and charts I have on this site will eventually be written 
-                        with D3.js. Until then, we'll have to do with this. 
+                        with D3.js. Until then, we will have to do with this. 
                     </p>
                 </div>
 
