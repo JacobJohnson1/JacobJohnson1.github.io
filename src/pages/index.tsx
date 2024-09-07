@@ -20,7 +20,7 @@ export default function Home() {
         </div>
       </header>
       <div id='FirstThingOnPage'>
-        <div>
+      <div className='blurb'>
           <p>
             My name is Jacob Johnson. I have a degree in computer science from the University of Missouri -
             Kansas City and I am a software engineer

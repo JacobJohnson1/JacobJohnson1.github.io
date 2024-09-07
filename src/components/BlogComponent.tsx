@@ -10,12 +10,12 @@ export default function BlogComponent() {
                     <img src="businessStressMan.jpg" className='postPic' />
                 </Link>
             </div>
-            <div className='posts'>
+            {/* <div className='posts'>
                 <Link href={'/blog6'}>
                     <p>Salon Website</p>
                     <img src="" className='postPic' />
                 </Link>
-            </div>
+            </div> */}
             <div className='posts'>
                 <Link href={'/blog4'}>
                     <p>Cat Stats</p>
