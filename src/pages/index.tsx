@@ -13,14 +13,14 @@ export default function Home() {
         <div>
           <nav className="navBarTab">
             <a href="#About" id="navBtn">About</a>
-            <a href="#Blog" id="navBtn">Blog</a>
             <a href="#Contact" id="navBtn">Contact</a>
+            <a href="/blog" id="navBtn">Blog</a>
           </nav>
           <UnderHeader />
         </div>
       </header>
       <div id='FirstThingOnPage'>
-      <div className='blurb'>
+        <div className='leftColumn'>
           <p>
             My name is Jacob Johnson. I have a degree in computer science from the University of Missouri -
             Kansas City and I am a software engineer
