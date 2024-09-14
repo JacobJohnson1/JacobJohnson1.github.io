@@ -14,7 +14,7 @@ export default function Home() {
           <nav className="navBarTab">
             <a href="#About" id="navBtn">About</a>
             <a href="#Contact" id="navBtn">Contact</a>
-            <a href="/blog" id="navBtn">Blog</a>
+            <Link href="/blog" id="navBtn">Blog</Link>
           </nav>
           <UnderHeader />
         </div>
