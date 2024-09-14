@@ -3,7 +3,7 @@ import Link from 'next/link';
 
 export default function BlogComponent() {
     return (
-        <div className='postContainer'>
+        <div>
             <div className='posts'>
                 <Link href={'/blog7'}>
                     <p>Job Prep</p>

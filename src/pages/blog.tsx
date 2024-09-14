@@ -19,7 +19,7 @@ export default function Home() {
                 </div>
             </header>
             <div id='FirstThingOnPage'>
-                <section id="Blog">
+                <section id="BlogPage">
                     <BlogComponent />
                 </section>
             </div>

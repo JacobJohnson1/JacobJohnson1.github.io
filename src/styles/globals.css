@@ -1,5 +1,9 @@
 #Blog {
-  text-decoration: none;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-right: 3rem;
 }
 
 #Blog,
@@ -20,6 +24,15 @@ a {
 .blogFrame {
   display: flex;
   flex-direction: row;
+}
+
+#BlogPage {
+  /* This should change later
+      rn, this is unresponsive
+  */
+  display: grid;
+  justify-content: right;
+  margin-right: 3rem; 
 }
 
 .blogPic {
@@ -118,14 +131,6 @@ a {
 p {
   line-height: 1;
   font-size: 15pt;
-}
-
-.postContainer {
-  display: flex;
-  flex-direction: column;
-  flex-wrap: wrap;
-  justify-content: center;
-  margin-right: 3rem;
 }
 
 .postPic {
