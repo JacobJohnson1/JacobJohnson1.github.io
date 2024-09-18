@@ -26,7 +26,7 @@ export default function Home() {
                     than large, built-up items/events/etc.
                     <br></br><br></br>
                     &emsp;A word that goes hand in hand with this feeling of joy and excitement is <i>fizz</i>. This is a relatively new word to me (I heard it 
-                    from a guy I follow on Youtube). It is used as such: "Awesome! This new gadget gives me the <i>fizz</i>!" 
+                    from a guy I follow on Youtube). It is used as such: &quot;Awesome! This new gadget gives me the <i>fizz</i>!&quot; 
                     We have all felt this feeling. The jittery, bubbly, butterflies from something that is surprisingly exciting. Here is me 
                     giving you permission to remember back to the last thing that made you feel this way...
                     <br></br><br></br>
