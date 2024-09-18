@@ -146,13 +146,11 @@ p {
 
 .postPic {
   max-width: 110%;
-  /* max-height: 100%; */
   object-fit: cover;
   border: 1px solid black;
   z-index: -200;
   position: relative;
   margin: -14px 0 0 -17px;
-  ;
 }
 
 .posts {
