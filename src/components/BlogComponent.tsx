@@ -5,44 +5,50 @@ export default function BlogComponent() {
     return (
         <div>
             <div className='posts'>
-                <Link href={'/blog7'}>
-                    <p>Job Prep</p>
-                    <img src="businessStressMan.jpg" className='postPic' />
+                <Link href={'/9_16_24'}>
+                    <div className="postTitle">9/16/24</div>
+                    <img src="" className='postPic' />
                 </Link>
+            </div>
+            <div className='posts'>
+                <a href={'/blog7'} className="jobPrepPost">
+                    <div className="postTitle">Job Prep</div>
+                    <img src="businessStressMan.jpg" className='postPic' />
+                </a>
             </div>
             {/* <div className='posts'>
                 <Link href={'/blog6'}>
-                    <p>Salon Website</p>
+                    <div>Salon Website</div>
                     <img src="" className='postPic' />
                 </Link>
             </div> */}
             <div className='posts'>
                 <Link href={'/blog4'}>
-                    <p>Cat Stats</p>
+                    <div className="postTitle">Cat Stats</div>
                     <img src="nerdCat.jpg" className='postPic' />
                 </Link>
             </div>
             <div className='posts'>
                 <Link href={'/blog1'}>
-                    <p>Emergency Book?</p>
+                    <div className="postTitle">Emergency Book?</div>
                     <img src="/folderImg.png" className='postPic' />
                 </Link>
             </div>
             <div className='posts'>
                 <Link href={'/blog2'}>
-                    <p>Sound Bored</p>
+                    <div className="postTitle">Sound Bored</div>
                     <img src="/sound-board.jpg" className='postPic' />
                 </Link>
             </div>
             <div className='posts'>
                 <Link href={'/blog3'}>
-                    <p>Poker Simulation</p>
+                    <div className="postTitle">Poker Simulation</div>
                     <img src="" className='postPic' />
                 </Link>
             </div>
             <div className='posts'>
                 <Link href={'/blog5'}>
-                    <p>Simulated Annealing</p>
+                    <div className="postTitle">Simulated Annealing</div>
                     <img src="simAnnealing.jpg" className='postPic' />
                 </Link>
             </div>
