@@ -31,7 +31,7 @@ export default function BlogComponent() {
             <div className='posts'>
                 <Link href={'/blog1'}>
                     <div className="postTitle">Emergency Book?</div>
-                    <img src="/folderImg.png" className='postPic' />
+                    <img src="/emergencyBook.jpeg" className='postPic' />
                 </Link>
             </div>
             <div className='posts'>
@@ -43,7 +43,7 @@ export default function BlogComponent() {
             <div className='posts'>
                 <Link href={'/blog3'}>
                     <div className="postTitle">Poker Simulation</div>
-                    <img src="" className='postPic' />
+                    <img src="/robotPoker.jpeg" className='postPic' />
                 </Link>
             </div>
             <div className='posts'>

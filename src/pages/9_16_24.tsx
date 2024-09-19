@@ -31,7 +31,7 @@ export default function Home() {
                     giving you permission to remember back to the last thing that made you feel this way...
                     <br></br><br></br>
                     &emsp;I find that some of the most satisfying and joyful things for me are when I find a clever solution to a problem I have. 
-                    If the fix is cheap, asthetically pleasing, and/or over-engineered, then I am all the more stoked about it. 
+                    If the fix is cheap, aesthetically pleasing, and/or over-engineered, then I am all the more stoked about it. 
                     <br></br>
                     &emsp; The problem that I aimed to fix is a problem with my keyboard. It is always on. Unless I unplug it (annoying) or I lock my
                     computer (not always possible). Here are two common scenarios I find myself in that will explain my plight. (1) I
