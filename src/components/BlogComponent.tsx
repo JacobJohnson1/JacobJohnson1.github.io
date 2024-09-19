@@ -34,12 +34,12 @@ export default function BlogComponent() {
                     <img src="/emergencyBook.jpeg" className='postPic' />
                 </Link>
             </div>
-            <div className='posts'>
+            {/* <div className='posts'>
                 <Link href={'/blog2'}>
                     <div className="postTitle">Sound Bored</div>
                     <img src="/sound-board.jpg" className='postPic' />
                 </Link>
-            </div>
+            </div> */}
             <div className='posts'>
                 <Link href={'/blog3'}>
                     <div className="postTitle">Poker Simulation</div>
