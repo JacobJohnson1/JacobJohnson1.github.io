@@ -7,7 +7,7 @@ export default function BlogComponent() {
             <div className='posts'>
                 <Link href={'/9_16_24'}>
                     <div className="postTitle">9/16/24</div>
-                    <img src="" className='postPic' />
+                    <img src="happyHarold.jpg" className='postPic' />
                 </Link>
             </div>
             <div className='posts'>

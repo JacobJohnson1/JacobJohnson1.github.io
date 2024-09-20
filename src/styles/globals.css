@@ -86,8 +86,8 @@ a {
 }
 
 .sideBarPhoto {
-  max-width: 100%;
-  max-height: 50%;
+  max-width: 75%;
+  max-height: 35%;
 }
 
 .insideFooter {
@@ -174,7 +174,7 @@ p {
   border: 1px solid black;
   z-index: -200;
   position: relative;
-  margin: -50px 0 0 -17px;
+  margin: -30px 0 0 -17px;
 }
 
 .posts {
