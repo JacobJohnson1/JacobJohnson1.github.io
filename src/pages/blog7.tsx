@@ -41,7 +41,8 @@ export default function Home() {
                     </p>
                     <h3>PHP</h3>
                     <p>
-                        Trying to learn PHP. 
+                        I am trying to become more than proficient with PHP in a short amount
+                        of time. I think the best way to do this is through projects. 
                     </p>
                     <h3>SQL/mySQL</h3>
                     <p>

@@ -5,6 +5,7 @@ import { posts } from "../data";
 import Link from 'next/link';
 import BlogComponent from '../components/BlogComponent';
 import UnderHeader from './UnderHeader';
+import GoodReadsRss from '@/components/GoodReadsRss';
 
 export default function Home() {
   return (
@@ -21,20 +22,22 @@ export default function Home() {
       </header>
       <div id='FirstThingOnPage'>
         <div className='leftColumn'>
-          <p>
+          <p className='blogParagraph'>
             My name is Jacob Johnson. I have a degree in computer science from the University of Missouri -
             Kansas City and I am a software engineer
             for an insurance company.
             <br></br><br></br>
             Saying you are a minimalist or you believe in any sort of 
             minimalism invites eye rolls these days. But, in a world of
-            over engineered and difficult to maintain websites and applications
+            over engineered and difficult-to-maintain websites and applications
             I am trying to keep this site stripped to bare-bones necessities. 
             <br></br><br></br>
-            This site has been created from scratch by me, so please
+            This site has been created from scratch by me mostly to have a place
+            to track the things I have done. Please
             feel free to read about the projects I have worked on, books read,
             and anything else on here.
           </p>
+          <GoodReadsRss />
         </div>
         <section id="Blog">
           <BlogComponent />
