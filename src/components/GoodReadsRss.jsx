@@ -17,22 +17,15 @@ export default function GoodReadsRss() {
       return;
     }
     const res = await fetch(`https://api.allorigins.win/get?url=${rssUrl}`);
-    console.log('res: ', res)
     const { contents } = await res.json();
     const feed = new window.DOMParser().parseFromString(contents, "text/xml");
     const items = feed.querySelectorAll("item");
-    console.log(items)
-    console.log('feed: ', feed)
     const feedItems = [...items].map((el) => ({
       description: filterJunk(el.querySelector("description").innerHTML),
       title: filterJunk(el.querySelector("title").innerHTML),
       pubDate: filterJunk(el.querySelector("pubDate").innerHTML),
 
     }));
-    console.log('link: ', feedItems[0].link)
-    console.log('description: ', feedItems[0].description)
-    let cleanedText = feedItems[0].title.replace(/<!\[CDATA\[/g, '');
-    console.log(cleanedText);
     setItems(feedItems);
   };  
     
