@@ -3,9 +3,13 @@ import React, { useState, useEffect } from "react";
 export default function GoodReadsRss() {
   const [rssUrl, setRssUrl] = useState('https://www.goodreads.com/user/updates_rss/108357320');
   const [items, setItems] = useState([]);
-
+  const urlPrefix = "https://www.goodreads.com/"
+  
   const filterJunk = (unFormatted) => {
-    return unFormatted.replace(/<!\[CDATA\[/g, '').replace(/\]\]>/, '');
+    return unFormatted
+      .replace(/<!\[CDATA\[/g, '') // Remove CDATA start tag
+      .replace(/\]\]>/, '') // Remove CDATA end tag
+      .replace(/href="\/(.*?)"/g, `href="${urlPrefix}/$1"`); // Add prefix to relative links
   };
 
   const getRss = async () => {
@@ -23,6 +27,7 @@ export default function GoodReadsRss() {
         title: filterJunk(el.querySelector("title").innerHTML),
         pubDate: filterJunk(el.querySelector("pubDate").innerHTML),
       }));
+      
       setItems(feedItems);
     } catch (error) {
       console.error("Error fetching RSS feed:", error);
@@ -37,7 +42,6 @@ export default function GoodReadsRss() {
     <div> 
       {items.map((item, index) => (
         <div key={index} className="posts">
-          <a>{item.title}</a>
           <p className="extraSmallLetters">{item.pubDate}</p>
           <div dangerouslySetInnerHTML={{ __html: item.description }} />
         </div>
