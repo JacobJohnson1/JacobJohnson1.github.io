@@ -36,7 +36,7 @@ export default function GoodReadsRss() {
   return (
     <div> 
       {items.map((item, index) => (
-        <div key={index} className="goodReadUpdates">
+        <div key={index} className="posts">
           <a>{item.title}</a>
           <p className="extraSmallLetters">{item.pubDate}</p>
           <div dangerouslySetInnerHTML={{ __html: item.description }} />

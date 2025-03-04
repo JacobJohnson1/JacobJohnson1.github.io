@@ -188,15 +188,6 @@ a {
   box-shadow: rgb(139, 139, 139) 4px 4px 0;
 }
 
-.goodReadUpdates {
-  border: 1px solid rgb(139, 139, 139);
-  border-radius: 10px;
-  
-  display: flex;
-  flex-direction: column;
-  box-shadow: rgb(139, 139, 139) 4px 4px 0;
-}
-
 .extraSmallLetters {
   font-size: 11px;
 }
