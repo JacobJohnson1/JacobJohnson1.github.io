@@ -5,6 +5,12 @@ export default function BlogComponent() {
     return (
         <div>
             <div className='posts'>
+                <Link href={'/bs_jobs'}>
+                    <div className="postTitle">BS Jobs</div>
+                    <img src="bsJobs.jpg" className='postPic' />
+                </Link>
+            </div>
+            <div className='posts'>
                 <Link href={'/9_16_24'}>
                     <div className="postTitle">9/16/24</div>
                     <img src="happyHarold.jpg" className='postPic' />
