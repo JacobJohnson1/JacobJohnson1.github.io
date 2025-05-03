@@ -9,4 +9,4 @@ const nextConfig = {
   assetPrefix: '/JacobJohnson1.github.io',
 }
 
-export default nextConfig
+module.exports = nextConfig
