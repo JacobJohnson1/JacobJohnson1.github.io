@@ -4,7 +4,7 @@ import React, { useState, useEffect } from "react";
 import { posts } from "../data";
 import Link from 'next/link';
 import UnderHeader from './UnderHeader';
-import CatStatGraph from '@/components/CatStatGraph';
+// import CatStatGraph from '@/components/CatStatGraph';
 
 const lastUpdateDate = '5/6/24';
 
@@ -52,7 +52,7 @@ export default function Home() {
                 </div>
 
             </div>
-            <CatStatGraph />
+            {/* <CatStatGraph /> */}
         </div>
     )
 }
