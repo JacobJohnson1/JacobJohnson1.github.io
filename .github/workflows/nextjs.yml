@@ -21,10 +21,14 @@ concurrency:
   cancel-in-progress: false
 
 jobs:
-# Build job
   build:
     runs-on: ubuntu-latest
     steps:
+      - name: Verify GitHub Pages is enabled
+        run: |
+          curl -f -s -H "Authorization: Bearer ${{ secrets.GITHUB_TOKEN }}" \
+          https://api.github.com/repos/${{ github.repository }}/pages > /dev/null \
+          || { echo "GitHub Pages is not enabled. Enable it in the repository settings."; exit 1; }
       - name: Checkout
         uses: actions/checkout@v3
       - name: Detect package manager
