@@ -2,7 +2,7 @@
   display: flex;
   flex-wrap: wrap;
   justify-content: right;
-  margin-left: 5rem;
+  margin-left: 3rem;
   margin-right: 2rem;
 }
 
@@ -32,7 +32,7 @@ a {
   */
   display: grid;
   justify-content: right;
-  margin-right: 3rem; 
+  margin-right: 3rem;
 }
 
 .blogPic {
@@ -78,7 +78,7 @@ a {
   font-size: calc(10px + 2vmin);
 }
 
-.imageSideBar{
+.imageSideBar {
   display: flex;
   max-width: 25rem;
   padding: 16.25rem 2rem 2rem 2rem;
@@ -93,9 +93,7 @@ a {
 
 .leftColumn {
   display: flex;
-  margin-right: 3rem;
   flex-direction: column;
-  max-width: 40%;
 }
 
 .navBarTab {
@@ -147,6 +145,7 @@ a {
 .blogParagraph {
   line-height: 1;
   font-size: 15pt;
+
   &::first-letter {
     float: left;
     font-family: serif;
