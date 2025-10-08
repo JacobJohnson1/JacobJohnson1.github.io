@@ -21,7 +21,7 @@ export default function Home() {
         </div>
       </header>
       <div id='FirstThingOnPage'>
-        <div className='leftColumn'>
+        <div className='homePageContent'>
           <p className='blogParagraph'>
             My name is Jacob Johnson. I have a degree in computer science from the University of Missouri -
             Kansas City and I am a software engineer

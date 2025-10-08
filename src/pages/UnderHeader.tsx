@@ -16,6 +16,7 @@ export default function UnderHeader() {
                 <a href="https://www.goodreads.com/user/show/108357320-jacob-johnson" id="socialIcons" target='blank'>
                     <img className='underHeaderLogo' src='/goodreads_logo.png'></img>
                 </a>
+                {/* <a href="https://www.goodreads.com/user/show/108357320-jacob-johnson" id="socialIcons" target='blank' className='fa-brands fa-goodreads' /> */}
             </div>
         </div>
     )
