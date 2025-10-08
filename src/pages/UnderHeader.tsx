@@ -1,8 +1,4 @@
-import { Inter } from 'next/font/google'
-import styles from '@/styles/Home.module.css'
-import React, { useState, useEffect } from "react";
-import { posts } from "../data";
-import Link from 'next/link';
+import React from "react";
 
 export default function UnderHeader() {
     return (
@@ -13,10 +9,7 @@ export default function UnderHeader() {
                 <a href="https://github.com/JacobJohnson1" target="blank" className="fa fa-github fa-xs" id="socialIcons" />
                 <a href="https://www.youtube.com/@jakejohnson6298" target="blank" className="fa fa-youtube fa-xs" id="socialIcons" />
                 <a href="mailto: therealjakejohnson@gmail.com" className="fa fa-envelope-o fa-xs" id="socialIcons" />
-                <a href="https://www.goodreads.com/user/show/108357320-jacob-johnson" id="socialIcons" target='blank'>
-                    <img className='underHeaderLogo' src='/goodreads_logo.png'></img>
-                </a>
-                {/* <a href="https://www.goodreads.com/user/show/108357320-jacob-johnson" id="socialIcons" target='blank' className='fa-brands fa-goodreads' /> */}
+                <a href="https://www.goodreads.com/user/show/108357320-jacob-johnson" id="socialIcons" target='blank' className='fa fa-book fa-xs' />
             </div>
         </div>
     )
