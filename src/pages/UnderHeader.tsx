@@ -9,7 +9,7 @@ export default function UnderHeader() {
                 <a href="https://github.com/JacobJohnson1" target="blank" className="fa fa-github fa-xs" id="socialIcons" />
                 <a href="https://www.youtube.com/@jakejohnson6298" target="blank" className="fa fa-youtube fa-xs" id="socialIcons" />
                 <a href="mailto: therealjakejohnson@gmail.com" className="fa fa-envelope-o fa-xs" id="socialIcons" />
-                <a href="https://www.goodreads.com/user/show/108357320-jacob-johnson" id="socialIcons" target='blank' className='fa fa-book fa-xs' />
+                <a href="https://www.goodreads.com/user/show/108357320-jacob-johnson" id="socialIcons" target="blank" className="fa fa-book fa-xs" />
             </div>
         </div>
     )
