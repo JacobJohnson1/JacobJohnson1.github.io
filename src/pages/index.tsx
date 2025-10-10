@@ -1,7 +1,4 @@
-import { Inter } from 'next/font/google'
-import styles from '@/styles/Home.module.css'
-import React, { useState, useEffect } from "react";
-import { posts } from "../data";
+import React from "react";
 import Link from 'next/link';
 import BlogComponent from '../components/BlogComponent';
 import UnderHeader from './UnderHeader';
@@ -15,7 +12,7 @@ export default function Home() {
             <a href="#About" id="navBtn">About</a>
             <a href="#Contact" id="navBtn">Contact</a>
             <Link href="/blog" id="navBtn">Blog</Link>
-            <Link href="/rssFeeds" id="navBtn">Rss Feeds</Link>
+            <Link href="/rssFeeds" id="navBtn">Rss</Link>
           </nav>
           <UnderHeader />
         </div>

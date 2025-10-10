@@ -3,13 +3,13 @@ a,
   text-decoration: none;
   color: whitesmoke;
   font-family: ui-sans-serif, system-ui, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
-  font-weight: 100;
 }
 
 #Blog {
   display: flex;
   flex-wrap: wrap;
-  justify-content: left;
+  justify-content: center;
+  width: 100%;
   margin-left: 3rem;
   margin-right: 2rem;
 }
@@ -29,9 +29,6 @@ a,
 }
 
 #BlogPage {
-  /* This should change later
-      rn, this is unresponsive
-  */
   display: grid;
   justify-content: right;
   margin-right: 3rem;
@@ -69,7 +66,6 @@ body {
 }
 
 .footer {
-  /* border: 1px solid #000; */
   width: 90%;
   margin-bottom: 2rem;
 }
@@ -78,9 +74,10 @@ body {
   text-align: left;
   display: flex;
   flex-direction: column;
-  align-items: left;
-  justify-content: left;
+  align-items: center;
+  justify-content: center;
   font-size: calc(10px + 2vmin);
+  max-width: 100%;
 }
 
 .imageSideBar {
@@ -180,7 +177,6 @@ body {
 .postPic {
   max-width: 110%;
   object-fit: cover;
-  /* border: 1px solid black; */
   border: oklch(20.5% 0 0);
 
   z-index: -200;
@@ -281,4 +277,107 @@ body {
   height: 15px;
   vertical-align: text-bottom;
   filter: invert(100%);
+}
+
+/* Responsive safety and overflow fixes */
+/* Use border-box everywhere so padding doesn't inflate widths */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+/* Prevent media (images, videos) from overflowing their containers */
+img,
+picture,
+video,
+iframe {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+/* Make post cards fluid: cap at 40rem but allow shrinking on small screens */
+.posts {
+  width: 100%;
+  max-width: 40rem;
+}
+
+/* Avoid oversized post images */
+.postPic {
+  max-width: 100%;
+  margin-left: 0;
+  /* negative margins can cause horizontal overflow on mobile */
+}
+
+/* Reduce large, fixed paddings/margins on small screens and stack columns */
+@media (max-width: 700px) {
+
+  /* tighten global fixed margins used in blog/home wrappers */
+  #Blog,
+  #BlogPage {
+    margin-left: 0.75rem;
+    margin-right: 0.75rem;
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+  #FirstThingOnPage,
+  .folder,
+  .sideBarRight,
+  .homePageContent,
+  .imageSideBar {
+    padding-left: 1rem;
+    padding-right: 1rem;
+    padding-top: 3rem;
+  }
+
+  .blogText {
+    padding-top: 1.5rem;
+    padding-left: 0.5rem;
+    max-width: 100%;
+  }
+
+  /* stack blog/post layout vertically instead of side-by-side */
+  .parentBlogDiv,
+  .blogContainer,
+  .blogFrame {
+    flex-direction: column;
+    align-items: stretch;
+  }
+
+  .posts {
+    height: auto;
+    margin-left: 0.25rem;
+    margin-right: 0.25rem;
+  }
+
+  /* remove awkward negative margins that can break mobile widths */
+  .postPic {
+    margin: 0 0 0 0;
+  }
+
+  /* shrink top navigation spacing on mobile */
+  .navBarTab,
+  .navBarTabBlog {
+    left: 8px;
+    right: 8px;
+    top: 8px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+
+  .underHeader {
+    left: 8px;
+    right: 8px;
+    top: 8px;
+    padding-top: 5rem;
+    padding-bottom: 10px;
+  }
+
+  /* heal any remaining horizontal overflow by preventing body scroll-x */
+  body {
+    overscroll-behavior-x: contain;
+    -webkit-overflow-scrolling: touch;
+  }
 }
