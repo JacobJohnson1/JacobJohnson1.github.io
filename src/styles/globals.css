@@ -177,13 +177,13 @@ body {
 }
 
 .postPic {
-  max-width: 110%;
+  max-width: 100%;
   object-fit: cover;
   border: oklch(20.5% 0 0);
-
   z-index: -200;
   position: relative;
-  margin: -30px 0 0 -17px;
+  margin: 0 0 0 0;
+  display: block;
   background: 
     linear-gradient(
       to bottom,
@@ -197,10 +197,10 @@ body {
   align-self: center;
   border: 1px solid rgb(139, 139, 139);
   border-radius: 10px;
-  margin: 1rem;
+  margin: 0.5rem;
   width: 40rem;
   height: 25rem;
-  padding: 1rem;
+  padding: 0.5rem;
   overflow: hidden;
   display: flex;
   box-shadow: rgb(139, 139, 139) 4px 4px 0;
@@ -317,13 +317,6 @@ iframe {
   max-width: 40rem;
 }
 
-/* Avoid oversized post images */
-.postPic {
-  max-width: 100%;
-  margin-left: 0;
-  /* negative margins can cause horizontal overflow on mobile */
-}
-
 /* Reduce large, fixed paddings/margins on small screens and stack columns */
 @media (max-width: 700px) {
 
@@ -364,11 +357,6 @@ iframe {
     height: auto;
     margin-left: 0.25rem;
     margin-right: 0.25rem;
-  }
-
-  /* remove awkward negative margins that can break mobile widths */
-  .postPic {
-    margin: 0 0 0 0;
   }
 
   /* shrink top navigation spacing on mobile */
