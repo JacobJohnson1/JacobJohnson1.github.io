@@ -12,7 +12,7 @@ export default function BlogComponent() {
             </div>
             <div className='posts'>
                 <Link href={'/9_16_24'}>
-                    <div className="postTitle">9/16/24</div>
+                    <div className="postTitle">It's the little things</div>
                     <img src="happyHarold.jpg" className='postPic' />
                 </Link>
             </div>
