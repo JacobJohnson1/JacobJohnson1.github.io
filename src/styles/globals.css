@@ -46,6 +46,8 @@ a,
 
 body {
   background-color: oklch(20.5% 0 0);
+  overscroll-behavior-x: contain;
+  -webkit-overflow-scrolling: touch;
 }
 
 #Books {
@@ -373,11 +375,5 @@ iframe {
     top: 8px;
     padding-top: 5rem;
     padding-bottom: 10px;
-  }
-
-  /* heal any remaining horizontal overflow by preventing body scroll-x */
-  body {
-    overscroll-behavior-x: contain;
-    -webkit-overflow-scrolling: touch;
   }
 }

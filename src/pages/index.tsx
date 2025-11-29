@@ -9,10 +9,9 @@ export default function Home() {
       <header className="Home-header">
         <div>
           <nav className="navBarTab">
-            <a href="#About" id="navBtn">About</a>
-            <a href="#Contact" id="navBtn">Contact</a>
-            <Link href="/blog" id="navBtn">Blog</Link>
-            <Link href="/rssFeeds" id="navBtn">Rss</Link>
+            <a href="/about" id="navBtn">About</a>
+            {/* <Link href="/blog" id="navBtn">Blog</Link> */}
+            <Link href="/rssFeeds" id="navBtn">Rss Feeds</Link>
           </nav>
           <UnderHeader />
         </div>
