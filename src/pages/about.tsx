@@ -16,12 +16,9 @@ export default function Home() {
             </header>
             <div id='FirstThingOnPage'>
              
-                {/* 
-                    & more about me?
-                    Contact section at bottom
-                */}
-                
-                
+            <h1>About me</h1>
+            <h1>Hire me!</h1>
+
             </div>
             <iframe
                 src="/Jacob-Johnson-Resume.pdf"
@@ -29,6 +26,8 @@ export default function Home() {
                 height="55rem"
                 style={{ minHeight: '55rem' }}
             ></iframe>
+            <h1>Contact me</h1>
+
         </div >
     )
 }

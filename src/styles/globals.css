@@ -177,13 +177,19 @@ body {
 }
 
 .postPic {
-  max-width: 110%;
+  max-width: 100%;
   object-fit: cover;
   border: oklch(20.5% 0 0);
-
   z-index: -200;
   position: relative;
-  margin: -30px 0 0 -17px;
+  margin: 0 0 0 0;
+  display: block;
+  background: 
+    linear-gradient(
+      to bottom,
+      rgba(0, 0, 0, 0),
+      rgba(175, 74, 74, 0.6)
+    );
 }
 
 .posts {
@@ -194,10 +200,16 @@ body {
   margin: 1rem;
   width: 40rem;
   height: 25rem;
-  padding: 1rem;
+  padding: 0rem;
   overflow: hidden;
   display: flex;
   box-shadow: rgb(139, 139, 139) 4px 4px 0;
+  position: relative;
+  background: linear-gradient(
+    to top,
+    rgba(0, 0, 0, 0),
+    rgba(0, 0, 0, 0.6)
+  );
 }
 
 .extraSmallLetters {
@@ -208,6 +220,7 @@ body {
   position: relative;
   z-index: 100;
   margin-bottom: -30px;
+  margin-left: 0.5rem;
   font-weight: 650;
   font-size: 100%;
   text-shadow: oklch(20.5% 0 0) -2px 2px 0px;
@@ -259,7 +272,7 @@ body {
 }
 
 .underHeader {
-  z-index: 200000;
+  z-index: 1000;
   left: 30px;
   top: 125px;
   right: 30px;
@@ -305,13 +318,6 @@ iframe {
   max-width: 40rem;
 }
 
-/* Avoid oversized post images */
-.postPic {
-  max-width: 100%;
-  margin-left: 0;
-  /* negative margins can cause horizontal overflow on mobile */
-}
-
 /* Reduce large, fixed paddings/margins on small screens and stack columns */
 @media (max-width: 700px) {
 
@@ -354,11 +360,6 @@ iframe {
     margin-right: 0.25rem;
   }
 
-  /* remove awkward negative margins that can break mobile widths */
-  .postPic {
-    margin: 0 0 0 0;
-  }
-
   /* shrink top navigation spacing on mobile */
   .navBarTab,
   .navBarTabBlog {
@@ -376,4 +377,5 @@ iframe {
     padding-top: 5rem;
     padding-bottom: 10px;
   }
+  
 }
