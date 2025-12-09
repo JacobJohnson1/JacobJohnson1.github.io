@@ -167,7 +167,17 @@ body {
   color: whitesmoke;
   font-family: ui-sans-serif, system-ui, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
   font-weight: 100;
+}
 
+& h1{
+  float: left;
+    font-family: ui-sans-serif, system-ui, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    font-weight: 700;
+    font-size: 250%;
+    line-height: 0.75;
+    padding: 0 .25rem 0 .25rem;
+    color: whitesmoke;
+    text-shadow: rgb(48, 35, 12) -4px 4px 0;
 }
 
 .parentBlogDiv {
