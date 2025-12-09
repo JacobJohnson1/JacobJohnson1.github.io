@@ -272,7 +272,7 @@ body {
 }
 
 .underHeader {
-  z-index: 200000;
+  z-index: 1000;
   left: 30px;
   top: 125px;
   right: 30px;
