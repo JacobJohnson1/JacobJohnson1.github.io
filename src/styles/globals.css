@@ -229,8 +229,7 @@ body {
 .postTitle {
   position: relative;
   z-index: 100;
-  margin-bottom: -30px;
-  margin-left: 0.5rem;
+  margin: 1rem 0rem -3rem 1rem;
   font-weight: 650;
   font-size: 100%;
   text-shadow: oklch(20.5% 0 0) -2px 2px 0px;
