@@ -2,7 +2,9 @@ a,
 #Blog {
   text-decoration: none;
   color: whitesmoke;
-  font-family: ui-sans-serif, system-ui, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+      font-family: 'Georgia', 'Times New Roman', Times, serif;
+
+  /* font-family: ui-sans-serif, system-ui, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji"; */
 }
 
 #Blog {
@@ -34,6 +36,22 @@ a,
   margin-right: 3rem;
 }
 
+.blogParagraph {
+  line-height: 1;
+  font-family: 'Georgia', 'Times New Roman', Times, serif;
+
+  &::first-letter {
+    float: left;
+    font-family: 'Georgia', 'Times New Roman', Times, serif;
+    font-weight: 700;
+    font-size: 900%;
+    line-height: 0.75;
+    padding: 0 .25rem 0 .25rem;
+    color: whitesmoke;
+    text-shadow: rgb(48, 35, 12) -4px 4px 0;
+  }
+}
+
 .blogPic {
   max-width: 200px;
 }
@@ -52,6 +70,10 @@ body {
 
 #Books {
   padding: 10rem;
+}
+
+.extraSmallLetters {
+  font-size: 11px;
 }
 
 #FirstThingOnPage {
@@ -82,6 +104,12 @@ body {
   max-width: 100%;
 }
 
+.homePageContent {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
 .imageSideBar {
   display: flex;
   max-width: 25rem;
@@ -93,12 +121,6 @@ body {
   border-radius: 10px;
   background-color: oklch(20.5% 0 0);
   opacity: 90%;
-}
-
-.homePageContent {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
 }
 
 .navBarTab {
@@ -142,38 +164,24 @@ body {
 
 #navBtn {
   color: whitesmoke;
+  font-family: 'Georgia', 'Times New Roman', Times, serif;
   padding: 1rem;
   border: none;
   font-weight: 800;
+  font-size: 25pt;
 }
 
-.blogParagraph {
-  line-height: 1;
-  font-size: 15pt;
-
-  &::first-letter {
-    float: left;
-    font-family: ui-sans-serif, system-ui, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
-    font-weight: 700;
-    font-size: 900%;
-    line-height: 0.75;
-    padding: 0 .25rem 0 .25rem;
-    color: whitesmoke;
-    text-shadow: rgb(48, 35, 12) -4px 4px 0;
-  }
-}
-
-& p {
+& p, ol{
   color: whitesmoke;
-  font-family: ui-sans-serif, system-ui, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  font-family: 'Georgia', 'Times New Roman', Times, serif;
   font-weight: 100;
 }
 
 & h1{
   float: left;
-    font-family: ui-sans-serif, system-ui, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    font-family: 'Georgia', 'Times New Roman', Times, serif;
     font-weight: 700;
-    font-size: 250%;
+    font-size: 200%;
     line-height: 0.75;
     padding: 0 .25rem 0 .25rem;
     color: whitesmoke;
@@ -222,10 +230,6 @@ body {
   );
 }
 
-.extraSmallLetters {
-  font-size: 11px;
-}
-
 .postTitle {
   position: relative;
   z-index: 100;
@@ -236,8 +240,12 @@ body {
 }
 
 .sideBarPhoto {
-  max-width: 75%;
-  max-height: 35%;
+  display: block;
+  max-width: 100%;
+  height: auto;
+  object-fit: contain;
+  aspect-ratio: attr(width) / attr(height);
+  border-radius: 10px;
 }
 
 .sideBarRight {
