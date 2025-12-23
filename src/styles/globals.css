@@ -83,6 +83,14 @@ body {
   flex-direction: column;
 }
 
+@media (max-width: 700px) {
+  #FirstThingOnPage {
+    margin-top: 5rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+}
+
 .folder {
   max-width: 40%;
   padding-top: 10rem;
@@ -112,6 +120,7 @@ body {
 
 .imageSideBar {
   display: flex;
+  flex-direction: column;
   max-width: 25rem;
   padding: 16.25rem 2rem 2rem 2rem;
   overflow: hidden;
@@ -246,6 +255,7 @@ body {
   object-fit: contain;
   aspect-ratio: attr(width) / attr(height);
   border-radius: 10px;
+  padding: 1rem 0 1rem 0;
 }
 
 .sideBarRight {
