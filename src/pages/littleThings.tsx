@@ -56,6 +56,10 @@ export default function Home() {
                         &emsp;My next (and final) idea was to add a button to my keboard. A kill-switch, if you will. When I want my keyboard
                         to stop being connected, I just press the button. 
                         <br></br><br></br>
+                        &emsp;I found a button in my box of old computer parts, figured out how to wire it up (red pin on usb is the power), and 
+                        wired it to the keyboard. It didn't take too long to get this sorted out, but it's a fun thing that solves a very
+                        specific problem I have. And, I didn't ruin the $11 thrifted keyboard like my wife said I would.
+                        <br></br><br></br>
                         &emsp;I think things that give you the fizz can make your day. Enough of those days can make a pretty good week. And soon enough you have
                         a pretty good life built partially on the enjoyment of small things.
                         <br></br><br></br>
@@ -64,7 +68,12 @@ export default function Home() {
                     </p>
                 </div>
                 <div className='imageSideBar'>
-                        <img className="sideBarPhoto" src='/usbPinout.jpg'></img>
+                    <img className="sideBarPhoto" src='/usbPinout.jpg'></img>
+                    {/* insert image of the keyboard here */}
+                    <div>
+                        <img className="sideBarPhoto" src='/judyOnDesk.jpg'></img>
+                        <p>This is my keyboard-stomping cat</p>
+                    </div>
                 </div>
             </div>
         </div>

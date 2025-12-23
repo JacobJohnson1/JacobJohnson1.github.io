@@ -339,10 +339,8 @@ iframe {
   max-width: 40rem;
 }
 
-/* Reduce large, fixed paddings/margins on small screens and stack columns */
 @media (max-width: 700px) {
   
-  /* tighten global fixed margins used in blog/home wrappers */
   #Blog,
   #BlogPage {
     margin-left: 0.75rem;
@@ -354,15 +352,14 @@ iframe {
   #FirstThingOnPage,
   .folder,
   .sideBarRight,
-  .homePageContent,
   .imageSideBar {
     padding-left: 1rem;
     padding-right: 1rem;
-    padding-top: 5rem;
+    padding-top: 9rem;
   }
 
   .blogText {
-    padding-top: 1.5rem;
+    padding-top: 9rem;
     padding-left: 0.5rem;
     max-width: 100%;
   }
@@ -381,7 +378,6 @@ iframe {
     margin-right: 0.25rem;
   }
 
-  /* shrink top navigation spacing on mobile */
   .navBarTab,
   .navBarTabBlog {
     left: 8px;
