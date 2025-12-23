@@ -83,14 +83,6 @@ body {
   flex-direction: column;
 }
 
-@media (max-width: 700px) {
-  #FirstThingOnPage {
-    margin-top: 5rem;
-    padding-left: 1rem;
-    padding-right: 1rem;
-  }
-}
-
 .folder {
   max-width: 40%;
   padding-top: 10rem;
@@ -315,6 +307,8 @@ body {
   padding-right: 1rem;
 }
 
+
+
 .underHeaderLogo {
   height: 15px;
   vertical-align: text-bottom;
@@ -347,7 +341,7 @@ iframe {
 
 /* Reduce large, fixed paddings/margins on small screens and stack columns */
 @media (max-width: 700px) {
-
+  
   /* tighten global fixed margins used in blog/home wrappers */
   #Blog,
   #BlogPage {
@@ -364,7 +358,7 @@ iframe {
   .imageSideBar {
     padding-left: 1rem;
     padding-right: 1rem;
-    padding-top: 3rem;
+    padding-top: 5rem;
   }
 
   .blogText {
@@ -400,9 +394,7 @@ iframe {
   .underHeader {
     left: 8px;
     right: 8px;
-    top: 8px;
-    padding-top: 5rem;
+    top: 6rem;
     padding-bottom: 10px;
   }
-  
 }
