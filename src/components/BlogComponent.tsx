@@ -5,6 +5,12 @@ export default function BlogComponent() {
     return (
         <div>
             <div className='posts'>
+                <Link href={'/mythicalManMonth'}>
+                    <div className="postTitle">Mythical Man Month</div>
+                    <img src="mythicalManMonth.jpg" className='postPic' />
+                </Link>
+            </div>
+            <div className='posts'>
                 <Link href={'/xterra_blog'}>
                     <div className="postTitle">Xterra</div>
                     <img src="xterra/2004xterra_darkened.png" className='postPic' />
