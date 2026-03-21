@@ -4,16 +4,16 @@ import Link from 'next/link';
 export default function BlogComponent() {
     return (
         <div>
-            <div className='posts'>
+            {/* <div className='posts'>
                 <Link href={'/mythicalManMonth'}>
                     <div className="postTitle">Mythical Man Month</div>
                     <img src="mythicalManMonth.jpg" className='postPic' />
                 </Link>
-            </div>
+            </div> */}
             <div className='posts'>
                 <Link href={'/xterra_blog'}>
                     <div className="postTitle">Xterra</div>
-                    <img src="xterra/2004xterra_darkened.png" className='postPic' />
+                    <img src="xterra/xterraBlogThumbnail.png" className='postPic' />
                 </Link>
             </div>
             {/* <div className='posts'>
@@ -34,12 +34,12 @@ export default function BlogComponent() {
                     <img src="" className='postPic' />
                 </Link>
             </div> */}
-            <div className='posts'>
+            {/* <div className='posts'>
                 <Link href={'/blog1'}>
                     <div className="postTitle">Emergency Book?</div>
                     <img src="/emergencyBook.png" className='postPic' />
                 </Link>
-            </div>
+            </div> */}
             {/* <div className='posts'>
                 <Link href={'/blog2'}>
                     <div className="postTitle">Sound Bored</div>

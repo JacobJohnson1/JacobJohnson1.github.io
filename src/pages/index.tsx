@@ -11,7 +11,7 @@ export default function Home() {
           <nav className="navBarTab">
             <a href="/about" id="navBtn">About</a>
             {/* <Link href="/blog" id="navBtn">Blog</Link> */}
-            <Link href="/rssFeeds" id="navBtn">Rss Feeds</Link>
+            {/* <Link href="/rssFeeds" id="navBtn">Rss Feeds</Link> */}
           </nav>
           <UnderHeader />
         </div>
