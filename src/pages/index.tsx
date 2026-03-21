@@ -23,15 +23,15 @@ export default function Home() {
             Kansas City and I am a software engineer
             for an insurance company.
             <br></br><br></br>
-            Saying you are a minimalist or you believe in any sort of
-            minimalism invites eye rolls these days. But, in a world of
-            over engineered and difficult-to-maintain websites and applications
-            I am trying to keep this site stripped to bare-bones necessities.
+            I don't really like social media. It seems that they're
+            out to capture our attention & waste our time. I'd like to think
+            this site is a great way to combat that a bit & to
+            still have friends/family/anyone else still see what I'm up to.
             <br></br><br></br>
-            This site has been created from scratch by me mostly to have a place
-            to track the things I have done. Please
-            feel free to read about the projects I have worked on, books read,
-            and anything else on here.
+            Everything here has been created from scratch by me with the
+            intent to share. So, please feel free to read what I've written,
+            look at the pictures I've taken, and kick your digital feet up &
+            stay a while.
           </p>
         </div>
         <section id="Blog">
