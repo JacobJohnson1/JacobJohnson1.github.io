@@ -467,6 +467,28 @@ h3 {
   filter: invert(100%);
 }
 
+.xterra-photo-gallery {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 15px;
+  margin: 2rem 0;
+  justify-content: center;
+}
+
+.xterra-photo {
+  width: 180px;
+  height: 180px;
+  object-fit: cover;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.3);
+  transition: transform 0.3s ease;
+}
+
+.xterra-photo:hover {
+  transform: scale(3);
+}
+
 /* Responsive safety and overflow fixes */
 *,
 *::before,

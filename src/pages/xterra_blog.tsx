@@ -19,13 +19,13 @@ var xterraImages = [
 
 function XterraPhotoGallery() {
   return (
-    <div className="xterra-photo-gallery" style={{ display: 'flex', flexWrap: 'wrap', gap: '10px', margin: '0 0 0 0' }}>
+    <div className="xterra-photo-gallery" >
       {xterraImages.map((img) => (
         <img
+          className="xterra-photo"
           key={img}
           src={`/xterra/${img}`}
           alt={img}
-          style={{ maxWidth: '250px', maxHeight: '250px', objectFit: 'cover', borderRadius: '8px', boxShadow: '0 2px 8px #0002' }}
         />
       ))}
     </div>
