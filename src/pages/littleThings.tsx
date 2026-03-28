@@ -69,11 +69,8 @@ export default function Home() {
                 </div>
                 <div className='imageSideBar'>
                     <img className="sideBarPhoto" src='/usbPinout.jpg'></img>
-                    {/* insert image of the keyboard here */}
-                    <div>
-                        <img className="sideBarPhoto" src='/judyOnDesk.jpg'></img>
-                        <p>This is my keyboard-stomping cat</p>
-                    </div>
+                    <img className="sideBarPhoto" title="Isn't she beautiful?" src='keyboard_button.jpeg'></img>
+                    <img className="sideBarPhoto" title="This is my keyboard-stomping cat" src='/judyOnDesk.jpg'></img>
                 </div>
             </div>
         </div>
