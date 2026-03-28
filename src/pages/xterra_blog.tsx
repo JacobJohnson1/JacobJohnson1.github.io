@@ -46,33 +46,38 @@ export default function Home() {
             <div className='blogText'>
                 <XterraPhotoGallery />
                 <p>
-                    
-                    I've owned my 2004 Nissan Xterra since ___ - my sophomore year of highschool. It's beena a bit of a love-hate
-                    relationship (mostly love), but it's caused me to learn a tremendous amount about car maintenance and repair.
-                    My parents & I went together to buy it off of Craigslist from a college student a few towns over. She was
-                    an equestrian,so of course there were large, girly horse girl stickers on the back glass that I took way too long
-                    to take off & was made fun of by all my friends for. On the plus side, though, it smelt like saddle leather for
-                    a couple year after I bought it. 
-                    <br></br>
-                    The xterra had about 80k miles on it & had been well taken care of. As a young highschooler & first time car owner,
-                    I knew virtually nothing about car maintenance; I thought all I had to do was get it rinsed & put gas in it.
+                    Dear Xterra,
                     <br></br><br></br>
-                    Some work I had to do on it over the years: 
-                    <ul>
-                        <li>Changed the spark plugs & plug wires</li>
-                        <li>Numerous battery replacements</li>
-                        <li>Changed the oil every 3-5k miles (I started doing this way too late)</li>
-                        <li>Full brake jobs</li>
-                        <li>2 radiator replacements</li>
-                        <li>She's on her second starter</li>
-                        <li>Whole steering wheel has been replaced</li>
-                        <li>New horn</li>
-                        <li>Belts</li>
-                        <li>Half a dozen tie rods and sway bar stabilizers</li>
-                    </ul>
+                    I've owned you since 2013 - my sophomore year of highschool. It's been a a bit of a love-hate
+                    relationship (mostly love), but you've caused me to learn a tremendous amount about car maintenance and repair.
+                    My parents & I went together to buy you off of Craigslist from a college student a few towns over. She was
+                    an equestrian, so of course there were large, girly horse girl stickers on your back glass that I took way too long
+                    to take off & was made fun of by all my friends for. But, I was enamoured by the smell of saddle leather for
+                    our first couple years. 
+                    <br></br>
+                    You were no spring chicken when we met; nine years old and 80k miles! You were well taken care of, though.
+                    As a dumb highschooler & first time car owner, I knew virtually nothing about car maintenance. 
+                    I thought all I had to do was give you a rinse & put gas in you. So, I'm sorry I let your radiator blow up (twice).
+                    I'm sorry it took six years and twenty thousand miles to fix your broken cylinder-six spark plug. And for 
+                    screwing up your throttle position sensor for the same amount of time. Sorry for breaking
+                    all of your hub caps because I thought they were too pesky to put back on correctly. Sorry for the solid
+                    steel mailbox I hit and for all of the fender benders.
+                    <br></br>
+                    We had some good times, though. And I stood up for you everytime a friend made fun of you or called you a 
+                    hoopty. You never left me stranded (except for when we ran out of gas in negative degree weather). You got
+                    me to every single day of work and school. You got me to every job interview and every date. 
+                    <br></br>
+                    I have a kid, now. I have a family & we just needed something a little safer and better on gas.
+                    We had to replace you and now it's time to say goodbye. I won't ever forget you and the lessons 
+                    you taught me. I hope you find a good home and that your next owner loves you as much as I do.
+                    <br></br><br></br>
+                    Love,
+                    <br></br>
+                    Jacob
                     
                     
                 </p>
+                <img src={`/xterra/xterraListing.jpg`}/>
             </div>
         </div>
     )
