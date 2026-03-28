@@ -13,7 +13,7 @@ export default function BlogComponent() {
             <div className='posts'>
                 <Link href={'/xterra_blog'}>
                     <div className="postTitle">Xterra</div>
-                    <img src="xterra/xterraBlogThumbnail.png" className='postPic' />
+                    <img src="xterra/extended_xterra.png" className='postPic' />
                 </Link>
             </div>
             {/* <div className='posts'>
