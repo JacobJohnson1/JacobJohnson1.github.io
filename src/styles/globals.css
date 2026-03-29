@@ -70,6 +70,8 @@ a:hover {
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   color: var(--text-secondary);
   letter-spacing: 0.3px;
+  padding-left: 2rem;
+  padding-right: 2rem;
 }
 
 .blogParagraph::first-letter {

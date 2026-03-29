@@ -20,18 +20,18 @@ export default function Home() {
             <div className='parentBlogDiv'>
                 <div className='blogText'>
                     <p className='blogParagraph'>
-                        A walk in the park, a good cup of coffee in the morning, a smile from the cashier at the store; It is the small things in life. Right?
+                        A walk in the park, a good cup of coffee in the morning, a smile from the cashier at the store. It is the small things in life. Right?
                         Big events are over-hyped in my opinion.
                         <br></br>
                         &emsp;After all the gifts are unwrapped and the toys have been played
-                        with on Christmas morning everyone is bored and a little sad. The fun is over. But, the little things keep on giving for some 
+                        with on Christmas morning, everyone is bored and a little sad. The fun is over. But, the little things keep on giving for some 
                         reason. It also seems that the longer you had to wait for said thing, the more enjoyment you get. Every good small 
                         encounter, neat fix, or cool little thrift store find gives me more satisfaction and joy 
                         than any large, expensive, overhyped item/event/etc.
                         <br></br><br></br>
                         &emsp;A word that goes hand in hand with this feeling of joy and excitement is <i>"fizz"</i>. This is a relatively new word 
-                        to me (I heard it from a guy I follow on Youtube). It is used as such: &quot;Awesome! This new gadget gives me the <i>fizz</i>!&quot; 
-                        We have all felt this feeling. The jittery, bubbly, butterflies from something that is surprisingly exciting. Go ahead and 
+                        to me (I heard it from a guy I follow on YouTube). It is used as such: &quot;Awesome! This new gadget gives me the <i>fizz</i>!&quot; 
+                        We have all felt this feeling. The jittery, bubbly butterflies from something that is surprisingly exciting. Go ahead and 
                         think back to the last thing that made you feel this way...
                         <br></br><br></br>
                         &emsp;I find that some of the most satisfying and joyful things for me are when I find a clever solution to a problem I have. 
@@ -53,7 +53,7 @@ export default function Home() {
                         a solution was to buy a new keyboard that comes with a detachable usb-c cable. This does not
                         check the cheap or over-engineered boxes of my want list, so this would be non fizz-producing.
                         <br></br>
-                        &emsp;My next (and final) idea was to add a button to my keboard. A kill-switch, if you will. When I want my keyboard
+                        &emsp;My next (and final) idea was to add a button to my keyboard. A kill-switch, if you will. When I want my keyboard
                         to stop being connected, I just press the button. 
                         <br></br><br></br>
                         &emsp;I found a button in my box of old computer parts, figured out how to wire it up (red pin on usb is the power), and 

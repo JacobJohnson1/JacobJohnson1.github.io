@@ -48,26 +48,27 @@ export default function Home() {
                 <p>
                     Dear Xterra,
                     <br></br><br></br>
-                    I've owned you since 2013 - my sophomore year of highschool. It's been a a bit of a love-hate
-                    relationship (mostly love), but you've caused me to learn a tremendous amount about car maintenance and repair.
-                    My parents & I went together to buy you off of Craigslist from a college student a few towns over. She was
-                    an equestrian, so of course there were large, girly horse girl stickers on your back glass that I took way too long
-                    to take off & was made fun of by all my friends for. But, I was enamoured by the smell of saddle leather for
-                    our first couple years. 
+                    I've owned you since 2013 - my sophomore year of high school. It's been a bit of a love-hate
+                   relationship (mostly love), but you've caused me to learn a tremendous amount about car maintenance and repair.
+                   My parents & I went together to buy you off of Craigslist from a college student a few towns over. She was
+                   an equestrian, so of course there were large, girly horse girl stickers on your back glass that I took way too long
+                   to take off & was made fun of by all my friends. But, I was enamoured by the smell of saddle leather for
+                   our first couple years.
+
                     <br></br>
-                    You were no spring chicken when we met; nine years old and 80k miles! You were well taken care of, though.
+                    You were no spring chicken when we met; nine years old and 80k miles! You were well taken care of, though. 
                     As a dumb highschooler & first time car owner, I knew virtually nothing about car maintenance. 
-                    I thought all I had to do was give you a rinse & put gas in you. So, I'm sorry I let your radiator blow up (twice).
-                    I'm sorry it took six years and twenty thousand miles to fix your broken cylinder-six spark plug. And for 
-                    screwing up your throttle position sensor for the same amount of time. Sorry for breaking
-                    all of your hub caps because I thought they were too pesky to put back on correctly. Sorry for the solid
-                    steel mailbox I hit and for all of the fender benders.
+                    I thought all I had to do was give you a rinse & put gas in you. So, I'm sorry I let your radiator 
+                    blow up (twice). I'm sorry it took six years and twenty thousand miles to fix your broken cylinder-six spark plug. 
+                    And for screwing up your throttle position sensor for the same amount of time. Sorry for breaking all of 
+                    your hub caps because I thought they were too pesky to put back on correctly. Sorry for the solid steel 
+                    mailbox I hit and for all of the fender benders.
                     <br></br>
-                    We had some good times, though. And I stood up for you everytime a friend made fun of you or called you a 
+                    We had some good times, though. And I stood up for you every time a friend made fun of you or called you a 
                     hoopty. You never left me stranded (except for when we ran out of gas in negative degree weather). You got
                     me to every single day of work and school. You got me to every job interview and every date. 
                     <br></br>
-                    I have a kid, now. I have a family & we just needed something a little safer and better on gas.
+                    I have a kid now. I have a family & we just needed something a little safer and better on gas.
                     We had to replace you and now it's time to say goodbye. I won't ever forget you and the lessons 
                     you taught me. I hope you find a good home and that your next owner loves you as much as I do.
                     <br></br><br></br>
