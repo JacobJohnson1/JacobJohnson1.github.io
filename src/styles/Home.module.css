@@ -143,11 +143,9 @@
   inset: 0;
   padding: 1px;
   border-radius: var(--border-radius);
-  background: linear-gradient(
-    to bottom right,
-    rgba(var(--tile-start-rgb), 1),
-    rgba(var(--tile-end-rgb), 1)
-  );
+  background: linear-gradient(to bottom right,
+      rgba(var(--tile-start-rgb), 1),
+      rgba(var(--tile-end-rgb), 1));
   background-clip: content-box;
 }
 
@@ -226,11 +224,9 @@
     border-radius: 0;
     border: none;
     border-bottom: 1px solid rgba(var(--callout-border-rgb), 0.25);
-    background: linear-gradient(
-      to bottom,
-      rgba(var(--background-start-rgb), 1),
-      rgba(var(--callout-rgb), 0.5)
-    );
+    background: linear-gradient(to bottom,
+        rgba(var(--background-start-rgb), 1),
+        rgba(var(--callout-rgb), 0.5));
     background-clip: padding-box;
     backdrop-filter: blur(24px);
   }
@@ -241,11 +237,9 @@
     inset: auto 0 0;
     padding: 2rem;
     height: 200px;
-    background: linear-gradient(
-      to bottom,
-      transparent 0%,
-      rgb(var(--background-end-rgb)) 40%
-    );
+    background: linear-gradient(to bottom,
+        transparent 0%,
+        rgb(var(--background-end-rgb)) 40%);
     z-index: 1;
   }
 }
@@ -272,17 +266,18 @@
   from {
     transform: rotate(360deg);
   }
+
   to {
     transform: rotate(0deg);
   }
 }
 
 
-.Blog{
+.Blog {
   text-decoration: none;
 }
 
-.blogBackground{
+.blogBackground {
   opacity: 50%;
 }
 
@@ -317,28 +312,10 @@
   padding-right: 1rem;
 }
 
-.navBarTabBlog{
-  left: 30px;
-  top: 30px;
-  right: 30px;
-  display: block;
-  z-index: 200000;
-  display: flex;
-  flex-direction: row;
-  justify-content: flex-start;
-  position: fixed;
-  bottom: auto;
-  padding-top: 14px;
-  padding-bottom: 14px;
-  background-color: #ffffff;
-  overflow: none;
-  padding-left: 1rem;
-}
-
 #navBtn {
   color: black;
   padding: 1rem;
-  border: none;   
+  border: none;
   background-color: #ffffff;
 }
 
@@ -368,7 +345,7 @@
   justify-content: center;
 }
 
-.smallBody{
+.smallBody {
   font-size: small;
 }
 
@@ -380,12 +357,12 @@
   font-size: 1rem;
 }
 
-#socialIcons:hover{
+#socialIcons:hover {
   transform: scale(1.05);
   cursor: pointer;
 }
 
-.underHeader{
+.underHeader {
   left: 30px;
   top: 125px;
   right: 30px;

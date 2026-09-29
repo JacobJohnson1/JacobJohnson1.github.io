@@ -10,7 +10,7 @@ export default function Home() {
         <div>
           <nav className="navBarTab">
             <a href="/about" id="navBtn">About</a>
-            {/* <Link href="/blog" id="navBtn">Blog</Link> */}
+            <a href="/blog" id="navBtn">Blog</a>
             {/* <Link href="/rssFeeds" id="navBtn">Rss Feeds</Link> */}
           </nav>
           <UnderHeader />
@@ -34,9 +34,6 @@ export default function Home() {
             stay a while.
           </p>
         </div>
-        <section id="Blog">
-          <BlogComponent />
-        </section>
       </div>
     </div>
   )

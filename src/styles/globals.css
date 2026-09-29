@@ -72,6 +72,7 @@ a:hover {
   letter-spacing: 0.3px;
   padding-left: 2rem;
   padding-right: 2rem;
+  padding-top: 2rem;
 }
 
 .blogParagraph::first-letter {
@@ -181,32 +182,11 @@ body {
   position: fixed;
   margin-bottom: 20px;
   box-shadow: var(--shadow);
-  transition: all 0.3s ease;
+  transition: all 0.2s ease;
 }
 
 .navBarTab:hover {
   border-color: rgba(59, 130, 246, 0.3);
-}
-
-.navBarTabBlog {
-  left: 30px;
-  top: 30px;
-  right: 30px;
-  display: flex;
-  flex-direction: row;
-  justify-content: flex-start;
-  position: fixed;
-  bottom: auto;
-  padding-top: 14px;
-  padding-bottom: 14px;
-  background: rgba(255, 255, 255, 0.9);
-  backdrop-filter: blur(10px);
-  border: 1px solid var(--border-color);
-  border-radius: 12px;
-  z-index: 200000;
-  padding-left: 1rem;
-  box-shadow: var(--shadow);
-  transition: all 0.3s ease;
 }
 
 #navBtn {
@@ -549,8 +529,7 @@ iframe {
     margin-right: 0.25rem;
   }
 
-  .navBarTab,
-  .navBarTabBlog {
+  .navBarTab {
     left: 8px;
     right: 8px;
     top: 8px;
