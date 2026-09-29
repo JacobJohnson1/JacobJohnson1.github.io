@@ -33,6 +33,10 @@ export default function Home() {
             look at the pictures I've taken, and kick your digital feet up &
             stay a while.
           </p>
+          <div className="wavingJake">
+            <img src="/randomDude.png" className="meWaiving" alt="Person waving" />
+            <img src="/Speech-Bubble-PNG-Image-2494120291.png" className="speechBubble" alt="" />
+          </div>
         </div>
       </div>
     </div>

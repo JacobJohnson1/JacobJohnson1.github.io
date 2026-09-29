@@ -73,6 +73,7 @@ a:hover {
   padding-left: 2rem;
   padding-right: 2rem;
   padding-top: 2rem;
+  width: 50%;
 }
 
 .blogParagraph::first-letter {
@@ -144,8 +145,55 @@ body {
 
 .homePageContent {
   display: flex;
-  flex-direction: column;
-  justify-content: center;
+  flex-direction: row;
+  flex-direction: row;
+}
+
+.wavingJake {
+  position: relative;
+  flex: 0 1 310px;
+  width: min(100%, 310px);
+  margin-top: 4rem;
+  margin-left: 2.5rem;
+}
+
+.meWaiving {
+  display: block;
+  width: 100%;
+  height: auto;
+  transition: transform 250ms ease;
+}
+
+.meWaiving:hover {
+  transform: translateY(-6px) rotate(-2deg);
+}
+
+.speechBubble {
+  position: absolute;
+  z-index: 1;
+  top: -12%;
+  right: -28%;
+  width: 75%;
+  height: auto;
+  rotate: 18deg;
+  transition: transform 250ms ease;
+}
+
+.speechBubble:hover {
+  transform: translateY(-8px) scale(1.05);
+}
+
+@media (prefers-reduced-motion: reduce) {
+
+  .meWaiving,
+  .speechBubble {
+    transition: none;
+  }
+
+  .meWaiving:hover,
+  .speechBubble:hover {
+    transform: none;
+  }
 }
 
 .imageSideBar {
@@ -492,6 +540,17 @@ iframe {
 }
 
 @media (max-width: 700px) {
+
+  .homePageContent {
+    flex-direction: column;
+  }
+
+  .wavingJake {
+    align-self: center;
+    flex: none;
+    width: min(70vw, 310px);
+    margin: 2rem 0 0;
+  }
 
   #Blog,
   #BlogPage {
