@@ -26,7 +26,7 @@ export default function Home() {
             I don't really like social media. It seems that they're
             out to capture our attention & waste our time. I'd like to think
             this site is a great way to combat that a bit & to
-            still have friends/family/anyone else still see what I'm up to.
+            have friends/family/anyone else still see what I'm up to.
             <br></br><br></br>
             Everything here has been created from scratch by me with the
             intent to share. So, please feel free to read what I've written,
@@ -34,7 +34,8 @@ export default function Home() {
             stay a while.
           </p>
           <div className="wavingJake">
-            <img src="/randomDude.png" className="meWaiving" alt="Person waving" />
+            <img src="/waivingBody.png" className="meWaiving" alt="Person waving" />
+            <img src="/waivingHand.png" className="armWaiving" alt="Person waving" />
             <img src="/Speech-Bubble-PNG-Image-2494120291.png" className="speechBubble" alt="" />
           </div>
         </div>
